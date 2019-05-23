@@ -87,11 +87,11 @@ class DescriptionVehicleViewController: UIViewController, DescriptionVehicleDisp
     let price = descriptionVehicle.preco,
     let fuel = descriptionVehicle.combustivel,
     let fipeCode = descriptionVehicle.fipe_codigo {
-        lbReference.text = reference
-        lbName.text = name
-        lbPrice.text = price
-        lbFuel.text = fuel
-        lbBrands.text = fipeCode
+        lbReference.text = "Referência: \(reference)"
+        lbName.text = "Nome: \(name)"
+        lbPrice.text = "Preço: \(price)"
+        lbFuel.text = "Combustivel: \(fuel)"
+        lbBrands.text = "Código FIPE: \(fipeCode)"
     }
  }
 
